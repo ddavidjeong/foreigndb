@@ -1,0 +1,17 @@
+.login-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .login-buttons button:hover {
+    background-color: #0056b3;
+  }
