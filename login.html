@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar" id="sidebar">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Log In / Sign Out</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <button class="menu-toggle" id="menuToggle" onclick="toggleSidebar()">&#9776; Menu</button>
+      <h1>Login</h1>
+      
+      
+      <div class="login-buttons">
+        <button class="login-button" onclick = "redirectToLogInPortal()">Login</button>
+        <button class="create-account-button" onclick="redirectToCreateAccount()">Create Account</button>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
